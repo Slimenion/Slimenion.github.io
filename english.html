@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drupal Coder</title>
+    <link rel="stylesheet" media="all" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <!-- навигация -->
+        <header class="navbar navbar-default" id="navbar" role="banner">
+            <!-- Контейнер чтобыц огреничивать рамки -->
+            <div class="container">
+                <!-- голова навигации (там где логотип (логотип это картинка компаниии)) -->
+                <div class="navbar-header">
+                    <div>
+                        <!-- ЛОГОТИП навигационная кнопка и она слева -->
+                        <a class="logo navbar-btn pull-left" href="#" title="Main" rel="home">
+                            <img src="img/drupal-coder.svg" alt="Main" />
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Это начало менюшечкииииии -->
+                <div class="navbar-collapse-wrapper">
+                    <div class="navbar-collapse collapse">
+                        <!-- соотыетственно самаааа навигация  -->
+                        <nav role="navigation" class="collapse navbar-collapse">
+                            <ul class="menu nav navbar-nav">
+                                <li>
+                                    <a href="#support">Website support</a>
+                                </li>
+                                <li>
+                                    <a href="#tarif">Pricing plans</a>
+                                </li>
+                                <li>
+                                    <a href="#cases">Our works</a>
+                                </li>
+                                <li>
+                                    <a href="#reviews">Feedback</a>
+                                </li>
+                                <li>
+                                    <a href="#contacts">Contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="rigth">
+                    <div class="navbar-collapse collapse">
+                        <nav class="collapse navbar-collapse">
+                            <ul class="menu nav navbar-nav">
+                                <li><a href="tel:88002222673" class="phone">8 800 222-26-73</a></li>
+                                <li class="expanded dropdown">
+                                    <a href class="dropdown-toggle lang" data-toggle="dropdown">EN<span
+                                            class="caret"></span></a>
+                                    <ul class="menu dropdown-menu">
+                                        <li><a class="change-lang" href="index.html">Ru</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- ЭТО КНОПКА ДЛЯ МОБИЛЬНОЙ ВЕРСИИ (НАВИГАЦИЯ) -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Задний фон + ачивменты + основной текст + кнопка "Тарифы" -->
+        <div>
+            <div class="block-main">
+                <!-- задний фон - видео + инопришеленец -->
+                <div class="block-main-background">
+                    <video playsinline autoplay="autoplay" loop="" class="fillWidth" preload="auto" muted>
+                        <source src="img/video.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <!-- рамки для блока -->
+                <div class="container">
+                    <div class="row">
+                        <!-- левая часть блока -->
+                        <div class="col-md-6">
+                            <h1 class="page-title">Maintenance <br> sites on Drupal</h1>
+                            <div class="support-main-description">
+                                Maintenance and support of websites <br>
+                                on CMS Drupal of any version and neglect
+                            </div>
+                            <!-- кнопка тарифы -->
+                            <div class="block-main-wrapper">
+                                <a href="#block-tariffs" class="block-main-btn">Rates</a>
+                            </div>
+                        </div>
+                        <!-- правая часть блока -->
+                        <div class="col-md-6">
+                            <div class="row support-achievements">
+                                <!-- 6 блоков справа -->
+                                <div class="col-md-4 col-sm-4 col-xs-6 support-achievement">
+                                    <!-- оболочка для ачивки -->
+                                    <div class="support-achievement-wrapper">
+                                        <!-- Первый, титульный текст -->
+                                        <div class="support-achievement-title">#1 <img src="img/cup.png"></div>
+                                        <!-- Описание -->
+                                        <div class="support-achievement-description">
+                                            Drupal-developer <br> in russia according to the <br> runet rating
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 support-achievement">
+                                    <div class="support-achievement-wrapper">
+                                        <div class="support-achievement-title">3+</div>
+                                        <div class="support-achievement-description">
+                                            The average experience of <br> specialists is more than <br> 3 years
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 support-achievement">
+                                    <div class="support-achievement-wrapper">
+                                        <div class="support-achievement-title">14</div>
+                                        <div class="support-achievement-description">
+                                            years of experience in Drupal
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 support-achievement">
+                                    <div class="support-achievement-wrapper">
+                                        <div class="support-achievement-title">200+</div>
+                                        <div class="support-achievement-description">
+                                            modules and themes <br> in drupalgive format
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 support-achievement">
+                                    <div class="support-achievement-wrapper">
+                                        <div class="support-achievement-title">35 000</div>
+                                        <div class="support-achievement-description">
+                                            hours of support for <br> drupal sites
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 support-achievement">
+                                    <div class="support-achievement-wrapper">
+                                        <div class="support-achievement-title">200+</div>
+                                        <div class="support-achievement-description">
+                                            Projects <br> on support
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <!-- 13 лет - эксперты -->
+            <article role="article" about="#main">
+                <div>
+                    <!-- 13 лет.... -->
+                    <div class="competencies">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- Основной текст -->
+                                    <h2 class="block-title">13 years of improving <br> competencies in Drupal <br>
+                                        support!</h2>
+                                    <!-- Описание -->
+                                    <div class="competencies-description">
+                                        We develop and optimize modules, expand <br> functionality
+                                        sites, update the design
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-flex competencies-row">
+                                <!-- 1 из 8 -->
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="competency">
+                                        <div class="competency-wrapper">
+                                            <div class="competency-header">
+                                                <div class="competency-icon"><img src="img/competency-1.svg"
+                                                        class="img-responsive"></div>
+                                            </div>
+                                            <div class="competency-body">
+                                                Adding <br> information to the site, <br> creating new <br>
+                                                sections
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 из 8 -->
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="competency">
+                                        <div class="competency-wrapper">
+                                            <div class="competency-header">
+                                                <div class="competency-icon"><img src="img/competency-2.svg"
+                                                        class="img-responsive"></div>
+                                            </div>
+                                            <div class="competency-body">
+                                                Development of <br> and optimization of <br> site modules
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 из 8 -->
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="competency">
+                                        <div class="competency-wrapper">
+                                            <div class="competency-header">
+                                                <div class="competency-icon"><img src="img/competency-3.svg"
+                                                        class="img-responsive"></div>
+                                            </div>
+                                            <div class="competency-body">
+                                                Integration with CRM, <br> 1C, payment systems, any
+                                                <br> web services
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 4 из 8 -->
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="competency">
+                                        <div class="competency-wrapper">
+                                            <div class="competency-header">
+                                                <div class="competency-icon"><img src="img/competency-4.svg"
+                                                        class="img-responsive"></div>
+                                            </div>
+                                            <div class="competency-body">
+                                                Any improvements to the <br> functionality and design
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 5 из 8 -->
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="competency">
+                                        <div class="competency-wrapper">
+                                            <div class="competency-header">
+                                                <div class="competency-icon"><img src="img/competency-5.svg"
+                                                        class="img-responsive"></div>
+                                            </div>
+                                            <div class="competency-body">
+                                                Audit and monitoring <br> of Drupal site security
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 6 из 8 -->
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="competency">
+                                        <div class="competency-wrapper">
+                                            <div class="competency-header">
+                                                <div class="competency-icon"><img src="img/competency-6.svg"
+                                                        class="img-responsive"></div>
+                                            </div>
+                                            <div class="competency-body">
+                                                Migration, import of <br> content and upgrade <br> Drupal
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 7 из 8 -->
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="competency">
+                                        <div class="competency-wrapper">
+                                            <div class="competency-header">
+                                                <div class="competency-icon"><img src="img/competency-7.svg"
+                                                        class="img-responsive"></div>
+                                            </div>
+                                            <div class="competency-body">
+                                                Optimize <br> and speed up <br> Drupal sites
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 8 из 8 -->
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="competency">
+                                        <div class="competency-wrapper">
+                                            <div class="competency-header">
+                                                <div class="competency-icon"><img src="img/competency-8.svg"
+                                                        class="img-responsive"></div>
+                                            </div>
+                                            <div class="competency-body">
+                                                Web marketing, <br> consulting <br> and SEO work
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Поддержка  -->
+                    <div class="advantages with-expertise">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- Заголовок -->
+                                    <h2 class="block-title">Drupal-coder support </h2>
+                                </div>
+                            </div>
+                            <div class="row row-flex advantages-row">
+                                <!-- 1 из 8 -->
+                                <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
+                                    <div class="advantage">
+                                        <div class="advantage-wrapper">
+                                            <div class="advantage-header">
+                                                <div class="advantage-num">01.</div>
+                                                <div class="advantage-title">Setting a task by Email</div>
+                                            </div>
+                                            <div class="advantage-body">
+                                                A convenient and familiar model of problem setting, in which the tasks
+                                                they are fixed and never lost.
+                                            </div>
+                                            <div class="advantage-icon"><img src="img/support1.svg"
+                                                    class="img-responsive"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 из 8 -->
+                                <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
+                                    <div class="advantage">
+                                        <div class="advantage-wrapper">
+                                            <div class="advantage-header">
+                                                <div class="advantage-num">02.</div>
+                                                <div class="advantage-title">Helpdesk system-reporting,
+                                                    transparency</div>
+                                            </div>
+                                            <div class="advantage-body">
+                                                The ability to view all applications in operation and hours worked in
+                                                in your personal account via the browser.
+                                            </div>
+                                            <div class="advantage-icon"><img src="img/support2.svg"
+                                                    class="img-responsive"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 из 8 -->
+                                <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
+                                    <div class="advantage">
+                                        <div class="advantage-wrapper">
+                                            <div class="advantage-header">
+                                                <div class="advantage-num">03.</div>
+                                                <div class="advantage-title">Advanced technical support
+                                                </div>
+                                            </div>
+                                            <div class="advantage-body">
+                                                The possibility of organizing extended technical support from 6: 00 to 22: 00 seven days
+                                                a week.
+                                            </div>
+                                            <div class="advantage-icon"><img src="img/support3.svg"
+                                                    class="img-responsive"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 4 из 8 -->
+                                <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
+                                    <div class="advantage">
+                                        <div class="advantage-wrapper">
+                                            <div class="advantage-header">
+                                                <div class="advantage-num">04.</div>
+                                                <div class="advantage-title">Personal project manager</div>
+                                            </div>
+                                            <div class="advantage-body">
+                                                Your project manager is always aware of the current state of the project and
+                                                I am ready to answer any questions at any time.
+                                            </div>
+                                            <div class="advantage-icon"><img src="img/support4.svg"
+                                                    class="img-responsive"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 5 из 8 -->
+                                <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
+                                    <div class="advantage">
+                                        <div class="advantage-wrapper">
+                                            <div class="advantage-header">
+                                                <div class="advantage-num">05.</div>
+                                                <div class="advantage-title">Convenient payment methods</div>
+                                            </div>
+                                            <div class="advantage-body">
+                                                Non-cash payment under the contract or electronic money: webmoney,
+                                                Yandex.money, PayPal.
+                                            </div>
+                                            <div class="advantage-icon"><img src="img/support5.svg"
+                                                    class="img-responsive"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 6 из 8 -->
+                                <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
+                                    <div class="advantage">
+                                        <div class="advantage-wrapper">
+                                            <div class="advantage-header">
+                                                <div class="advantage-num">06.</div>
+                                                <div class="advantage-title">Working with SLA <br> and NDA</div>
+                                            </div>
+                                            <div class="advantage-body">
+                                                Working within the framework of confidentiality and level agreements
+                                                the quality of work.
+                                            </div>
+                                            <div class="advantage-icon"><img src="img/support6.svg"
+                                                    class="img-responsive"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 7 из 8 -->
+                                <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
+                                    <div class="advantage">
+                                        <div class="advantage-wrapper">
+                                            <div class="advantage-header">
+                                                <div class="advantage-num">07.</div>
+                                                <div class="advantage-title">Full-time <br> specialists</div>
+                                            </div>
+                                            <div class="advantage-body">
+                                                Reliable full-time specialists, no freelancers.
+                                            </div>
+                                            <div class="advantage-icon"><img src="img/support7.svg"
+                                                    class="img-responsive"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 8 из 8 -->
+                                <div class="col-sm-6 col-md-3 col-xs-12 advantage-col">
+                                    <div class="advantage">
+                                        <div class="advantage-wrapper">
+                                            <div class="advantage-header">
+                                                <div class="advantage-num">08.</div>
+                                                <div class="advantage-title">Convenient communication <br> channels</div>
+                                            </div>
+                                            <div class="advantage-body">
+                                                Consultations by phone, skype, in messengers.
+                                            </div>
+                                            <div class="advantage-icon"><img src="img/support8.svg"
+                                                    class="img-responsive"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Эксперты в друпал -->
+                    <div class="expertise">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12 col-md-offset-6">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <!-- Заголовок -->
+                                            <h2 class="block-title">Expertise in Drupal, <br> experience of 14 years!</h2>
+                                        </div>
+                                    </div>
+                                    <!-- Блоки -->
+                                    <div class="row row-flex expertise-row">
+                                        <!-- Левый -->
+                                        <div class="col-sm-6 col-xs-12 expertise-col">
+                                            <div class="expertise-item">
+                                                <div class="expertise-item-body">
+                                                    Only a systematic approach – version control, redundancy and
+                                                    Testing!
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Правый -->
+                                        <div class="col-sm-6 col-xs-12 expertise-col">
+                                            <div class="expertise-item">
+                                                <div class="expertise-item-body">
+                                                    Only Drupal sites, do not take on support sites on others
+                                                    CMS!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expertise-img"><img class="img-responsive" src="img/laptop.png"></div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Блок тарифы -->
+            <section id="block-tariffs">
+                <h2 class="block-title">Tariff</h2>
+                <div>
+                    <div class="tariffs">
+                        <div class="container">
+                            <div class="row row-flex tariffs-row">
+                                <!-- Стартовый -->
+                                <div class="col-sm-4 col-xs-12 col-flex">
+                                    <div class="tariff">
+                                        <div class="tariff-wrapper">
+                                            <div class="tariff-header">
+                                                <div class="tariff-title">Starting</div><br>
+                                                <div class="tariff-price">2000 <span class="rub">₽</span></div>
+                                                <div class="tariff-price-description">per hour</div>
+                                            </div>
+                                            <div class="tariff-body">
+                                                <div class="tarrif-body-item">Prepayment from 2 hours</div>
+                                                <div class="tarrif-body-item">Consulting and work on SEO</div>
+                                                <div class="tarrif-body-item">Designer services</div>
+                                                <div class="tarrif-body-item">Standard reaction time</div>
+                                                <div class="tarrif-body-item">Unused paid hours
+                                                    transferred to the next month</div>
+                                            </div>
+                                            <div class="tariff-footer">
+                                                <a href="#forma" class="contact-form tariff-footer-btn">Leave a request!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Бизнес -->
+                                <div class="col-sm-4 col-flex col-xs-12">
+                                    <div class="tariff">
+                                        <div class="tariff-wrapper">
+                                            <div class="tariff-header">
+                                                <div class="tariff-title">Business</div><br>
+                                                <div class="tariff-price">2000 <span class="rub">₽</span></div>
+                                                <div class="tariff-price-description">per hour</div>
+                                            </div>
+                                            <div class="tariff-body">
+                                                <div class="tarrif-body-item">Prepayment From 10 hours</div>
+                                                <div class="tarrif-body-item">Consulting and work on SEO</div>
+                                                <div class="tarrif-body-item">Designer services</div>
+                                                <div class="tarrif-body-item">High response time-up to 2 working days
+                                                </div>
+                                                <div class="tarrif-body-item">Unused hours are not transferred</div>
+                                            </div>
+                                            <div class="tariff-footer">
+                                                <a href="#forma" class="contact-form tariff-footer-btn">Leave a request!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- VIP -->
+                                <div class="col-sm-4 col-flex col-xs-12">
+                                    <div class="tariff">
+                                        <div class="tariff-wrapper">
+                                            <div class="tariff-header">
+                                                <div class="tariff-title">VIP</div><br>
+                                                <div class="tariff-price">1800 <span class="rub">₽</span></div>
+                                                <div class="tariff-price-description">per hour</div>
+                                            </div>
+                                            <div class="tariff-body">
+                                                <div class="tarrif-body-item">Prepayment from 100 hours</div>
+                                                <div class="tarrif-body-item">Consulting and work on SEO</div>
+                                                <div class="tarrif-body-item">Designer services</div>
+                                                <div class="tarrif-body-item">The maximum response time in the day
+                                                    appeals</div>
+                                                <div class="tarrif-body-item">Unused hours are not transferred</div>
+                                            </div>
+                                            <div class="tariff-footer">
+                                                <a href="#block-podderzhkasaytovkontaktnayaforma"
+                                                    class="contact-form tariff-footer-btn">Leave a request!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tariffs-ps">
+                                        Are our rates not suitable for you? Leave a request and we will offer you customized solutions
+                                        conditions!
+                                        <a href="#" class="tariffs-link">Get an individual rate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Блок последние кейсы -->
+            <section class="container block block-views block-views-blockblog-block-1"
+                id="block-views-block-blog-block-1">
+                <h2 class="block-title">Recent cases</h2>
+                <div class="form-group">
+                    <div class="inverse view view-blog view-id-blog view-display-id-block_1">
+                        <div class="view-content">
+                            <article role="article" about="#" class="blog keys-1">
+                                <div class="keys-wrapper" style="background-image: url(img/image\ 9.2.svg)">
+                                    <div class="keys-img" style="background-image: url(img/image\ 9.2.svg)"></div>
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Configuring YML upload for yandex.market</span></a>
+                                        </h2>
+                                        <div class="keys-date">22.04.2019</div>
+                                    </div>
+                                    <div class="keys-content">
+                                        <div
+                                            class="field field--name-body  field--label-hidden field--item">
+                                            <p>These words are perfectly true, but the hypnotic riff continues
+                                                pause layer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article role="article" about="#" class="blog is-promoted is-sticky keys-2">
+                                <div class="keys-wrapper" style="background-image: url(img/image\ 11.1.svg)">
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Configuring YML upload for yandex.market</span>
+                                            </a>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article data-history-node-id="263" role="article" about="#"
+                                class="blog is-promoted keys-1">
+                                <div class="keys-wrapper" style="background-image: url(img/image\ 8.3.svg)">
+                                    <div class="keys-img" style="background-image: url(img/image\ 8.3.svg)"></div>
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Configuring YML upload for yandex.market</span></a>
+                                        </h2>
+                                        <div class="keys-date">22.04.2019</div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <article role="article" about="#" class="blog is-promoted keys-1">
+                                <div class="keys-wrapper" style="background-image: url(img/image\ 7.3.svg)">
+                                    <div class="keys-img" style="background-image: url(img/image\ 7.3.svg)"></div>
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Configuring YML upload for yandex.market</span></a>
+                                        </h2>
+                                        <div class="keys-date">22.04.20</div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <article role="article" about="#" class="blog is-promoted keys-1 clearfix">
+                                <div class="keys-wrapper" style="background-image: url(img/image\ 6.2.svg)">
+                                    <div class="keys-img" style="background-image: url(img/image\ 6.2.svg)"></div>
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Configuring YML upload for yandex.market </span>
+                                            </a>
+                                        </h2>
+                                        <div class="keys-date">
+                                            22.04.2019
+                                        </div>
+                                    </div>
+                                    <div class="keys-content">
+                                        <div
+                                            class="field field--name-body  field--label-hidden field--item">
+                                            <p>These words are perfectly true, but the hypnotic riff continues
+                                                pause layer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article role="article" about="#" class="blog is-promoted keys-2 clearfix">
+                                <div class="keys-wrapper" style="background-image: url(img/image\ 10.1.svg)">
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Configuring YML upload for yandex.market</span>
+                                            </a>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article role="article" about="#" class="blog is-promoted keys-1 clearfix">
+                                <div class="keys-wrapper" style="background-image: url(img/image\ 6.2.svg)">
+
+                                    <div class="keys-img" style="background-image: url(img/image\ 6.2.svg)"></div>
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Configuring YML upload for yandex.market</span></a>
+                                        </h2>
+                                        <div class="keys-date">
+                                            22.04.2019
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="more-link form-group"><a href="#">Show more</a></div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Наши проф разработчики-->
+            <!--/*<section class="views-element-container"
+                id="block-views-block-prof">
+                <h2>Наши профессиональные разработчики выполняют быстро выполняют быстро любые задачи</h2>
+                
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="competency">
+                            <div class="competency-wrapper">
+                                <div class="competency-header">
+                                    <div class="competency-icon"><img src="img/competency-1.svg"
+                                            class="img-responsive"></div>
+                                </div>
+                                <div class="competency-body">
+                                    Добавление <br> информации на сайт,<br> создание новых <br>
+                                    разделов
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="competency">
+                            <div class="competency-wrapper">
+                                <div class="competency-header">
+                                    <div class="competency-icon"><img src="img/competency-1.svg"
+                                            class="img-responsive"></div>
+                                </div>
+                                <div class="competency-body">
+                                    Добавление <br> информации на сайт,<br> создание новых <br>
+                                    разделов
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="competency">
+                            <div class="competency-wrapper">
+                                <div class="competency-header">
+                                    <div class="competency-icon"><img src="img/competency-1.svg"
+                                            class="img-responsive"></div>
+                                </div>
+                                <div class="competency-body">
+                                    Добавление <br> информации на сайт,<br> создание новых <br>
+                                    разделов
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>-->
+
+
+            <!-- Блок команда -->
+            <section class="views-element-container container block block-views block-views-blockteam-team-new clearfix"
+                id="block-views-block-team-new">
+                <h2 class="block-title ">Команда</h2>
+                <div class="form-group">
+                    <div class="view view-team view-id-team view-display-id-team_new">
+                        <div class="view-content">
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="img/image2.jpg" typeof="Image" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name"><a href="#" title="Профиль на drupal.org"
+                                            target="_blank">Sergey Sinitsa</a></div>
+                                    <div class="user-teaser-post">Head of the Web Development Department, Candidate of Technical Sciences.PhD, Deputy Director</div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="img/image5.jpg" typeof="Image" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name"><a href="#" title="Профиль на drupal.org"
+                                            target="_blank">Roman Agabekov</a></div>
+                                    <div class="user-teaser-post">Head of DevOps Department, Director</div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="img/image4.jpg" typeof="Image" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name"><a href="#" title="Профиль на drupal.org"
+                                            target="_blank">Alexey Sinitsa</a></div>
+                                    <div class="user-teaser-post">Head of the Website Support Department</div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="img/image3.jpg" typeof="Image" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name"><a href="#" title="Профиль на drupal.org"
+                                            target="_blank">Daria Bochkareva</a></div>
+                                    <div class="user-teaser-post">Head of the Department of promotion, contextual advertising and content support of websites</div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="img/image1.jpg" typeof="Image" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name">Irina Torkunova</div>
+                                    <div class="user-teaser-post">Customer Service Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Блок отзывы -->
+            <section class="views-element-container block block-views block-views-blocktestimonials-block-1"
+                id="block-views-block-testimonials-block-1">
+                <h2 class="block-title">Feedback</h2>
+                <div class="form-group">
+                    <div class="container view view-testimonials view-id-testimonials view-display-id-block_1">
+                        <div class="view-content">
+                            <div id="slick-views-testimonials-block-1-1"
+                                class="slick slick--view--testimonials slick--view--testimonials--block-1 slick--optionset--reviews">
+                                <div id="slick-views-testimonials-block-1-1-slider" class="slick__slider">
+                                    <div class="slick__slide slide slide--0">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/image 6.5.svg" alt="WINAMP" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content-title">The drupal coder command called only
+                                                positive
+                                                impressions!</div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Alexander Nureyev, Winamp Russian Project Manager
+                                                Community</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--1">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/cableman_ru.png" alt="cableman.ru"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Blanditiis illum doloremque reprehenderit eos
+                                                cupiditate?
+                                                Dolore sint magni doloribus itaque nobis veniam, sed, dicta distinctio
+                                                voluptatem officia esse voluptas, sapiente quaerat.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Atque odio molestiae pariatur voluptates minus sequi
+                                                voluptate?</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--2">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/lpcma_rus_v4.jpg" alt="lpcma.tsu.ru"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Debitis alias repudiandae optio obcaecati perspiciatis
+                                                aspernatur aperiam architecto expedita.
+                                                Accusantium,
+                                                ipsa a quo hic tempora odio ratione iure voluptatibus temporibus ab
+                                                molestias aliquid sequi aperiam perspiciatis quibusdam nesciunt ex
+                                                beatae praesentium.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit, amet consectetur
+                                                adipisicing.</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--3">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/nashagazeta_ch.png" alt="nashagazeta.ch"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Provident ex qui odio quisquam placeat iste? Odit modi
+                                                sit ratione officiis,
+                                                voluptate voluptates aliquid illum ad iure omnis quibusdam voluptas
+                                                provident! Sit obcaecati, iusto voluptate consequatur maiores autem
+                                                dolor itaque sed dolore
+                                                saepe repellendus iste, corrupti possimus nam quis blanditiis odit
+                                                ipsum, sapiente officiis quia? Inventore architecto placeat ad
+                                                assumenda? Eius tempora iste
+                                                praesentium veritatis voluptate error!
+                                                Tempora, soluta est reprehenderit facere atque quos ad laborum quasi,
+                                                mollitia distinctio aut? Iusto!
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit amet.</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--4">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/logo-estee.png" alt="estee-design.ru"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit, amet consectetur
+                                                adipisicing elit.
+                                                Nihil, officia distinctio! Minima harum esse ullam vero rem reiciendis
+                                                praesentium totam quia, ad rerum temporibus dolor, voluptatem eius
+                                                facere ipsam.
+                                                Nulla sit ipsum et. Deleniti sit obcaecati quae rem voluptas,
+                                                accusantium possimus quasi et vitae rerum numquam natus.
+                                                Amet, maiores? Dolorum sint eos eligendi doloribus eaque harum, facilis
+                                                nisi nam, omnis a, molestiae sit quae.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Rem optio eveniet consectetur labore quibusdam
+                                                cupiditate.</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--5">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/farbors_ru.jpg" alt="farbors.ru" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor, sit amet consectetur
+                                                adipisicing elit. Atque optio minus quia quidem maiores provident vero,
+                                                officia hic harum
+                                                laboriosam architecto magnam error dicta eveniet dolor. Repellendus
+                                                autem mollitia neque necessitatibus accusantium recusandae aut voluptas
+                                                perspiciatis possimus sint,
+                                                at voluptates laudantium officia facilis. Officia iste ipsam
+                                                voluptatibus eligendi cupiditate, fuga suscipit facilis enim culpa
+                                                dolore quas sed pariatur quibusdam illo eum
+                                                voluptatum accusantium quis ab rem aspernatur repudiandae? Voluptatum
+                                                quo accusantium ipsa assumenda sit delectus quas tempore fugiat officiis
+                                                quam necessitatibus,
+                                                perspiciatis ratione id pariatur dignissimos dolore repellat expedita.
+                                                Reiciendis deserunt vel eum recusandae unde modi dolorem odio et quam.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit.</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--6">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/logo_2.png" alt="www.serebro.ag" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur,
+                                                adipisicing elit. In sapiente quod unde nostrum nesciunt soluta deleniti
+                                                et culpa,
+                                                mollitia est voluptatibus aperiam totam!
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Reiciendis.</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--7">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/logo.png" alt="personal-writer.com"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit, amet consectetur
+                                                adipisicing elit.
+                                                Ut iure perferendis culpa facilis eveniet, asperiores repellat fugiat
+                                                tempora voluptates assumenda ab.
+                                                Eum iusto, nesciunt distinctio provident deleniti ullam sequi libero!
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit.</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="slick__slide slide slide--8">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/image 6.5.svg" alt="WINAMP" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Команда Drupal Coder вызвала только положительные
+                                                впечатления!</div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Нуреев Александр, менеджер проекта Winamp Russian
+                                                Community</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--9">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/cableman_ru.png" alt="cableman.ru"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Blanditiis illum doloremque reprehenderit eos
+                                                cupiditate?
+                                                Dolore sint magni doloribus itaque nobis veniam, sed, dicta distinctio
+                                                voluptatem officia esse voluptas, sapiente quaerat.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Atque odio molestiae pariatur voluptates minus sequi
+                                                voluptate?</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--10">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/lpcma_rus_v4.jpg" alt="lpcma.tsu.ru"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Debitis alias repudiandae optio obcaecati perspiciatis
+                                                aspernatur aperiam architecto expedita.
+                                                Accusantium,
+                                                ipsa a quo hic tempora odio ratione iure voluptatibus temporibus ab
+                                                molestias aliquid sequi aperiam perspiciatis quibusdam nesciunt ex
+                                                beatae praesentium.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit, amet consectetur
+                                                adipisicing.</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--11">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/nashagazeta_ch.png" alt="nashagazeta.ch"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Provident ex qui odio quisquam placeat iste? Odit modi
+                                                sit ratione officiis,
+                                                voluptate voluptates aliquid illum ad iure omnis quibusdam voluptas
+                                                provident! Sit obcaecati, iusto voluptate consequatur maiores autem
+                                                dolor itaque sed dolore
+                                                saepe repellendus iste, corrupti possimus nam quis blanditiis odit
+                                                ipsum, sapiente officiis quia? Inventore architecto placeat ad
+                                                assumenda? Eius tempora iste
+                                                praesentium veritatis voluptate error!
+                                                Tempora, soluta est reprehenderit facere atque quos ad laborum quasi,
+                                                mollitia distinctio aut? Iusto!
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit amet.</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--12">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/logo-estee.png" alt="estee-design.ru"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor sit, amet consectetur
+                                                adipisicing elit.
+                                                Nihil, officia distinctio! Minima harum esse ullam vero rem reiciendis
+                                                praesentium totam quia, ad rerum temporibus dolor, voluptatem eius
+                                                facere ipsam.
+                                                Nulla sit ipsum et. Deleniti sit obcaecati quae rem voluptas,
+                                                accusantium possimus quasi et vitae rerum numquam natus.
+                                                Amet, maiores? Dolorum sint eos eligendi doloribus eaque harum, facilis
+                                                nisi nam, omnis a, molestiae sit quae.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Rem optio eveniet consectetur labore quibusdam
+                                                cupiditate.</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--13">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="img/farbors_ru.jpg" alt="farbors.ru" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Lorem ipsum dolor, sit amet consectetur
+                                                adipisicing elit. Atque optio minus quia quidem maiores provident vero,
+                                                officia hic harum
+                                                laboriosam architecto magnam error dicta eveniet dolor. Repellendus
+                                                autem mollitia neque necessitatibus accusantium recusandae aut voluptas
+                                                perspiciatis possimus sint,
+                                                at voluptates laudantium officia facilis. Officia iste ipsam
+                                                voluptatibus eligendi cupiditate, fuga suscipit facilis enim culpa
+                                                dolore quas sed pariatur quibusdam illo eum
+                                                voluptatum accusantium quis ab rem aspernatur repudiandae? Voluptatum
+                                                quo accusantium ipsa assumenda sit delectus quas tempore fugiat officiis
+                                                quam necessitatibus,
+                                                perspiciatis ratione id pariatur dignissimos dolore repellat expedita.
+                                                Reiciendis deserunt vel eum recusandae unde modi dolorem odio et quam.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Lorem ipsum dolor sit.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <nav class="slick__arrow">
+                                    <div class="slick__arrow-wrapper">
+                                        <button class="slick-prev slick-arrow slprev" aria-label="Previous"
+                                            type="button">Previous</button>
+                                        <span class="slick-slide-num"></span>
+                                        <button type="button" class="slick-next slick-arrow slnext" aria-label="Next"
+                                            role="button">Next</button>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Блок с нами работают -->
+            <!-- Требует доработку!!!! -->
+            <section class="views-element-container block block-views block-views-blockour-clients-block-1"
+                id="block-views-block-our-clients">
+                <h2 class="block-title">They work with us</h2>
+                <div class="form-group">
+                    <div class="view view-our-clients view-id-our_clients view-display-id-block_1">
+                        <div class="view-header">
+                            Dozens of companies trust us with the most valuable thing they have on the Internet – their websites. We
+                            do our best to make our cooperation long.
+                        </div>
+                        <div class="view-content">
+                            <div>
+                                <div id="slick-views-our-clients-block-1-2-slider" class="slick__slider">
+                                    <div class="slick__slide">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <picture>
+                                                    <img src="img/image5.png"
+                                                        alt="Кубанский Государственный Университет"
+                                                        class="img-responsive" />
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <picture>
+                                                    <img src="img/Kubsu_logo.png" class="img-responsive" />
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <picture>
+                                                    <img src="img/image10.png"
+                                                        alt="Кубанский Государственный Университет"
+                                                        class="img-responsive" />
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <picture>
+                                                    <img src="img/image11.png"
+                                                        alt="Кубанский Государственный Университет"
+                                                        class="img-responsive" />
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <picture>
+                                                    <img src="img/Kubsu_logo.png"
+                                                        alt="Кубанский Государственный Университет"
+                                                        class="img-responsive" />
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <picture>
+                                                    <img src="img/Kubsu_logo.png"
+                                                        alt="Кубанский Государственный Университет"
+                                                        class="img-responsive" />
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <picture>
+                                                    <img src="img/Kubsu_logo.png"
+                                                        alt="Кубанский Государственный Университет"
+                                                        class="img-responsive" />
+                                                </picture>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="attachment attachment-after">
+                            <div class="views-element-container form-group">
+                                <div class="view view-our-clients view-id-our_clients view-display-id-attachment_1">
+                                    <div class="view-content">
+                                        <div id="slick-views-our-clients-attachment-1-3" class="slick">
+                                            <div id="slick-views-our-clients-attachment-1-3-slider"
+                                                class="slick__slider">
+                                                <div class="slick__slide slide slide--0">
+                                                    <div class="views-field views-field-field-project-logo">
+                                                        <div class="field-content">
+                                                            <picture>
+                                                                <img src="img/Kubsu_logo.png" alt="Ciel parfum"
+                                                                    typeof="foaf:Image" class="img-responsive" />
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="slick__slide slide slide--1">
+                                                    <div class="views-field views-field-field-project-logo">
+                                                        <div class="field-content">
+                                                            <picture>
+                                                                <img srcset="https://drupal-coder.ru/sites/default/files/styles/our_clients_logo/public/projects/andreyparabellum_ru.png?itok=N099CqvM 1x"
+                                                                    src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                                                    alt="http://andreyparabellum.ru "
+                                                                    typeof="foaf:Image" class="img-responsive" />
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="slick__slide slide slide--2">
+                                                    <div class="views-field views-field-field-project-logo">
+                                                        <div class="field-content">
+                                                            <picture>
+                                                                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                                                                <source
+                                                                    srcset="https://drupal-coder.ru/sites/default/files/styles/our_clients_logo/public/projects/farbors_ru.jpg.webp?itok=wpKD_m3m 1x"
+                                                                    type="image/webp" />
+                                                                <source
+                                                                    srcset="https://drupal-coder.ru/sites/default/files/styles/our_clients_logo/public/projects/farbors_ru.jpg?itok=wpKD_m3m 1x"
+                                                                    type="image/jpeg" />
+                                                                <!--[if IE 9]></video><![endif]--><img
+                                                                    srcset="https://drupal-coder.ru/sites/default/files/styles/our_clients_logo/public/projects/farbors_ru.jpg?itok=wpKD_m3m 1x"
+                                                                    src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                                                    alt="farbors.ru" typeof="foaf:Image"
+                                                                    class="img-responsive" /></picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="slick__slide slide slide--0">
+                                                    <div class="views-field views-field-field-project-logo">
+                                                        <div class="field-content">
+                                                            <picture>
+                                                                <img src="img/Kubsu_logo.png" alt="Ciel parfum"
+                                                                    class="img-responsive" />
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="slick__slide slide slide--1">
+                                                    <div class="views-field views-field-field-project-logo">
+                                                        <div class="field-content">
+                                                            <picture>
+                                                                <img src="/img/logo-estee.png"
+                                                                    alt="http://andreyparabellum.ru"
+                                                                    class="img-responsive" />
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="slick__slide slide slide--2">
+                                                    <div class="views-field views-field-field-project-logo">
+                                                        <div class="field-content">
+                                                            <picture>
+                                                                <img src="img/image10.png" alt="farbors.ru"
+                                                                    class="img-responsive" />
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+
+        <footer class="footer" role="contentinfo">
+            <div class=" container">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <section>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12 col-sm-6">
+                                <div>
+                                    <div class="block-form-wrapper">
+                                        <div class="block-form-title">Leave a request for <br> site support</div>
+                                        <div class="block-form-description">Do you need site support urgently? Your team
+                                            does not manage to cope independently or the previous contractor did not cope
+                                            with WORK? then you will definitely come to us! Just leave a request and our manager with
+                                            you will be contacted!</div>
+                                        <div class="block-form-contacts">
+                                            <ul>
+                                                <li class="block-form-phone"><a href="tel:88002222673">8 800
+                                                        222-26-73</a></li>
+                                                <li class="block-form-email"><a
+                                                        href="mailto:info@drupal-coder.ru">info@drupal-coder.ru</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12 col-sm-6">
+                                <div class="field field--form-value field--item">
+                                    <form class="forms" action="https://formcarry.com/s/Sof219Ig2E" method="post" accept-charset="UTF-8">
+                                        <div class="form-group form-wrapper">
+                                            <div class="form-item form-type-textfield form-group">
+                                                <input class="input form-control" type="text" name="Name" placeholder="Your name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group form-wrapper">
+                                            <div class="form-item form-type-textfield form-group">
+                                                <input class="input required form-control" type="text" name="Telephone" placeholder="Telephone" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="form-group form-wrapper">
+                                            <div class="form-item form-type-email form-group">
+                                                <input class="input form-email required form-control" type="email"  name="Email" placeholder="E-mail" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="form-group form-wrapper">
+                                            <div class="form-item form-type-textarea">
+                                                <div>
+                                                    <textarea class="input form-control" name="msg" rows="5" cols="60" placeholder="Your comment"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="form-item  form-type-checkbox checkbox">
+                                            <label class="control-label option form-required">
+                                                <input required="required" class="form-checkbox" type="checkbox" name="consent" value="1">
+                                                <span class="custom-checkbox"></span>By submitting an application, I consent to the processing of my personal data.</label>
+                                        </div>
+                                        <div class="form-actions form-group form-wrapper">
+                                            <button class="button form-submit btn-primary btn" type="submit" id="edit-submit" name="submit"
+                                                value="Оставить заявку!">Leave a request!</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="block-copyright"
+                        class="block block-block-content clearfix">
+                        <div
+                            class="field field--name-body field--item">
+                            <p style="color: #FFFFFF; opacity: 0.5;">The project of "Inetlab", Krasnodar, Russia.<br>
+                                Drupal is a registered trademark of Dries Buytaert.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/history.js"></script>
+</body>
+
+</html>
