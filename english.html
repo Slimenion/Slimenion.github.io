@@ -24,14 +24,20 @@
                 </div>
 
                 <div class="navbar-collapse-wrapper">
-                    <div class="navbar-collapse collapse">>
+                    <div class="navbar-collapse collapse">
                         <nav class="collapse navbar-collapse">
                             <ul class="menu nav navbar-nav">
                                 <li>
                                     <a href="#support">Website support</a>
                                 </li>
                                 <li>
-                                    <a href="#tarif">Pricing plans</a>
+                                    <a  data-toggle="dropdown">Pricing plans<span
+                                        class="caret"></span></a>
+                                    <ul class="menuTarif dropdown-menu">
+                                        <li><a class="caretmenu" href="#tarif">Starting</a></li>
+                                        <li><a class="caretmenu" href="#tarif">Business</a></li>
+                                        <li><a class="caretmenu" href="#tarif">VIP</a></li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <a href="#cases">Our works</a>
@@ -279,7 +285,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="block-title">Drupal-coder support </h2>
+                                    <h2 class="block-title" id="support">Drupal-coder support </h2>
                                 </div>
                             </div>
                             <div class="row row-flex advantages-row">
@@ -454,7 +460,7 @@
             </article>
 
             <section id="block-tariffs">
-                <h2 class="block-title">Tariff</h2>
+                <h2 class="block-title" id="tarif">Tariff</h2>
                 <div>
                     <div class="tariffs">
                         <div class="container">
@@ -547,7 +553,7 @@
 
             <section class="container block block-views block-views-blockblog-block-1"
                 id="block-views-block-blog-block-1">
-                <h2 class="block-title">Recent cases</h2>
+                <h2 class="block-title" id="cases">Recent cases</h2>
                 <div class="form-group">
                     <div class="inverse view view-blog view-id-blog view-display-id-block_1">
                         <div class="view-content">
@@ -1282,13 +1288,13 @@
                                         <div class="form-group form-wrapper">
                                             <div class="form-item form-type-textfield form-group">
                                                 <input class="input form-control" type="text" name="Name"
-                                                    placeholder="Your name">
+                                                    placeholder="Ваше имя">
                                             </div>
                                         </div>
                                         <div class="form-group form-wrapper">
                                             <div class="form-item form-type-textfield form-group">
                                                 <input class="input required form-control" type="text" name="Telephone"
-                                                    placeholder="Phone" required="required">
+                                                    placeholder="Телефон" required="required">
                                             </div>
                                         </div>
                                         <div class="form-group form-wrapper">
@@ -1301,7 +1307,7 @@
                                             <div class="form-item form-type-textarea">
                                                 <div>
                                                     <textarea class="input form-control" name="msg" rows="5" cols="60"
-                                                        placeholder="Your comment"></textarea>
+                                                        placeholder="Ваш комментарий"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -1314,8 +1320,7 @@
                                         </div>
                                         <div class="form-actions form-group form-wrapper">
                                             <button class="button form-submit btn-primary btn" type="submit"
-                                                id="edit-submit" name="submit" value="Leave a
-                                                request!">Leave a
+                                                id="edit-submit" name="submit" value="Оставить заявку!">Leave a
                                                 request!</button>
                                         </div>
                                     </form>
