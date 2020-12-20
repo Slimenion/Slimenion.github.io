@@ -8,6 +8,26 @@
 }
 
 @media all {
+
+    .caretmenu{
+        font-family: Montserrat!important;
+        font-style: normal!important;
+        font-weight: 500!important;
+        font-size: 12px!important;
+        line-height: 10px!important;
+        letter-spacing: 0.06em!important;
+        text-transform: uppercase!important;
+
+        color: #FFFFFF!important;
+        
+        text-decoration: none!important;
+        opacity: 0.8!important;
+    }
+    
+
+    .menuTarif{
+        background-color: #EF4D34;
+    }
     
     .slick-list {
         position: relative;
