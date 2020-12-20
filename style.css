@@ -8,20 +8,7 @@
 }
 
 @media all {
-    .slick-slider {
-        position: relative;
-        display: block;
-        box-sizing: border-box;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        -webkit-touch-callout: none;
-        -khtml-user-select: none;
-        -ms-touch-action: pan-y;
-        touch-action: pan-y;
-        -webkit-tap-highlight-color: transparent;
-    }
+    
     .slick-list {
         position: relative;
         display: block;
@@ -97,7 +84,7 @@
     ul {
         padding-left: 1.5em;
     }
-    .footer {
+    footer {
         margin-top: 45px;
         padding-top: 35px;
         padding-bottom: 36px;
@@ -227,6 +214,9 @@
         margin-left: auto;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .footerIndent{
+        margin-top: 117px;
     }
     @media (min-width:768px) {
         .container {
@@ -1692,11 +1682,6 @@
 
     .social-links {
         margin-bottom: 15px;
-    }
-    .social-links-wrapper {
-        margin: 0;
-        padding: 0;
-        list-style: none;
     }
     .social-links-item {
         display: inline-block;
